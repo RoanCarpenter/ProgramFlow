@@ -1,0 +1,33 @@
+public class HelloWorld
+{
+
+    int a = 5;
+    int b = 2;
+    int c = 1;
+    int d = -8;
+
+    public void run() {
+        if (a == 5) {
+            System.out.println("SUCCESS");
+        } else{
+            System.out.print("FAILURE");
+        }
+
+        if (b == 2) {
+            System.out.println("SUCCESS");
+        } else {
+            System.out.println("FAILURE");
+        }
+        
+        if(c != 1)
+
+    }
+}
+}
+
+public static void main(String[] args)
+{        
+HelloWorld hw = new HelloWorld();
+hw.run();
+}
+}
